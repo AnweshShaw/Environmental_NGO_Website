@@ -1,0 +1,103 @@
+body
+{
+    margin: 0;
+    background-color: cyan;
+}
+h1
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-decoration: underline;
+  margin-top: 0;
+}
+h2
+{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar 
+{
+    background-color: orangered;
+    overflow: hidden;
+}
+.navbar a 
+{
+  float: right;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: solid;
+  font-size: 23px;
+}
+
+.navbar a:hover 
+{
+  background-color: #fff;
+  color: black;
+}
+
+.navbar a.active 
+{
+  background-color: blue;
+  color: white;
+}
+.navbar_left
+{
+    float:left;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.logo_img
+{
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+}
+input[type=text], select, textarea 
+{
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+.button
+{
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 20%;
+}
+.button:hover 
+{
+  background-color: green;
+}
+.container 
+{
+  border-radius: 5px;
+  background-color: blueviolet;
+  padding: 20px;
+}
+footer
+{
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+}
+@media (max-width: 500px)
+{
+    body
+    {
+        color: blue;
+    }
+}
