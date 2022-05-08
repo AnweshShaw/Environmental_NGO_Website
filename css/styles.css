@@ -60,10 +60,12 @@ footer
   text-align: center;
   font-size: 20px;
 }
-@media (max-height: 1200px)
+@media (max-width: 450px)
 {
-  img
-  {
-    text-align: center;
-  }
+    img
+    {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
 }
